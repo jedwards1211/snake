@@ -23,7 +23,7 @@ To build use `cmake`:
 
 The idea here is to limit the moves the snake can make. In each 2×2 cell it is always 'driving' on the right. So at any point there are only two possible moves. If the snake moves from one cell to another then the cells are connected.
 If the connected cells form a tree, then the path of the snake must be a Hamiltonian cycle.
-And if the connected cells form a tree, then the path of the snake must be a Hamiltonian cycle. You can also immagine the tree as a maze and the snake walking around it, keeping its right hand on the wall.
+You can also immagine the tree as a maze and the snake walking around it, keeping its right hand on the wall.
 
 So, we enforce the following conditions
 * Only make moves consistent with right-hand-driving in the 2×2 cell
